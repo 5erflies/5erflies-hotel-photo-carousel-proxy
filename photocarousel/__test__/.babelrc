@@ -1,8 +1,0 @@
-{
-  "presets": [
-    "@babel/react",
-    "@babel/env"
-  ],
-  "plugins": ["@babel/syntax-jsx"]
-}
-

@@ -8,7 +8,7 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "start": "nodemon client/server.js",
+    "start": "nodemon proxy/public/proxy.js",
     "proxy": "nodemon proxy/public/proxy.js localhost 3000",
     "react-dev": "webpack -d --watch",
     "build": "webpack --config webpack.config.js",
