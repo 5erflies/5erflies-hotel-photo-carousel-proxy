@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  local_proxy:
+    build: ../5erflies-hotel-photo-carousel-proxy/
+    depends_on:
+      - 'database'
+    ports:
+      - '3000:3000'
+
+  local_server:
+    build: ../5erflies-hotel-photo-carousel-service/
+    depends_on:
+      - 'database'
+    ports:
+      - '3001:3001'
+
+  database:
+    image: mongo:latest
