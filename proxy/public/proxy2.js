@@ -8,7 +8,7 @@ app.use(cors());
 const port = process.env.PORT || 3000;
 app.use(express.static(__dirname, + '/public'));
 
-  const serverListing = 'http://54.193.221.78/:3001/listing/';
+  const serverListing = 'http://54.193.221.78:3001/listing/';
   const serverReview = 'http://54.219.11.204:3002/reviews/';
   const serverMorePlaces = 'http://54.219.218.34:3003/test1/';
 
