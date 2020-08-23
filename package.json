@@ -8,8 +8,8 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "start": "nodemon proxy/public/proxy.js",
-    "proxy": "nodemon proxy/public/proxy2.js",
+    "start": "node proxy/public/proxy2.js",
+    "dev-start": "nodemon proxy/public/proxy2.js",
     "react-dev": "webpack -d --watch",
     "build": "webpack --config webpack.config.js",
     "seed": "node seed.js",
